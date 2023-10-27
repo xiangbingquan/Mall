@@ -46,4 +46,28 @@
 }
 
 
+/* 头部制作 */
+
+.header{
+    position: relative;
+    height: 105px;
+    background-color: pink;
+}
+
+.logo{
+    position: absolute;
+    top:25px;
+    width: 171px;
+    height: 61px;
+}
+
+.logo a{
+    display: block;
+    width: 171px;
+    height: 61px;
+    font-size: 0;
+    background: url(../images/logo.png) no-repeat;
+}
+
+
 
