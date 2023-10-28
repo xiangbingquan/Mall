@@ -1,67 +1,68 @@
-.w{
+.w {
     width: 1200px;
     margin: 0 auto;
+    /* css3盒子模型 */
+    box-sizing: border-box;
 }
 
-.style_red{
+.style_red {
     color: #c81623;
 }
 
 /* 快捷导航栏 */
 
-.shortcut{
+.shortcut {
     height: 31px;
-    background-color:#f1f1f1;
+    background-color: #f1f1f1;
 }
 
-.shortcut .w .left{
+.shortcut .w .left {
     float: left;
 }
 
-.shortcut .w .left ul li{
-    float :left;
+.shortcut .w .left ul li {
+    float: left;
     line-height: 31px;
     font-family: SimSun;
-    font-size:12px;
-    color:#666666;
+    font-size: 12px;
+    color: #666666;
 }
 
-.shortcut .w .right{
+.shortcut .w .right {
     float: right;
 }
 
-.shortcut .w .right ul li{
-    float :left;
+.shortcut .w .right ul li {
+    float: left;
     line-height: 31px;
     font-family: SimSun;
-    font-size:12px;
-    color:#666666;
+    font-size: 12px;
 }
 
-.shortcut .w .right ul li:nth-child(even){
+.shortcut .w .right ul li:nth-child(even) {
     width: 1px;
     height: 12px;
-    background-color:#666;
+    background-color: #666;
     margin: 9px 15px 0;
 }
 
 
 /* 头部制作 */
 
-.header{
+.header {
     position: relative;
     height: 105px;
     background-color: pink;
 }
 
-.logo{
+.logo {
     position: absolute;
-    top:25px;
+    top: 25px;
     width: 171px;
     height: 61px;
 }
 
-.logo a{
+.logo a {
     display: block;
     width: 171px;
     height: 61px;
@@ -69,5 +70,64 @@
     background: url(../images/logo.png) no-repeat;
 }
 
+/* 搜索栏 */
 
+.search {
+    position: absolute;
+    top: 25px;
+    left: 346px;
+    height: 32px;
+    width: 538px;
+    border: 2px solid #b1191a;
+}
 
+.search input {
+    float: left;
+    width: 455px;
+    height: 32px;
+    padding-left: 10px;
+}
+
+.search button {
+    color: #f1f1f1;
+    float: left;
+    width: 83px;
+    height: 32px;
+    background-color: #b1191a;
+}
+
+/* hot模块制作 */
+
+.hotwords {
+    position: absolute;
+    top: 66px;
+    left: 346px;
+}
+
+.hotwords a {
+    font-family: SimSun;
+    font-size:12px;
+    margin: 0 10px;
+}
+
+/* 购物车 */
+
+.shopcard{
+    position:absolute;
+    right: 60px;
+    top:25px;
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border:1px solid #dfdfdf;
+    background-color: azure;
+}
+
+.shopcard::before{
+
+}
+
+.shopcard::after{
+    
+}

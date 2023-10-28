@@ -8,5 +8,15 @@ ul{
 }
 
 a{
+    color: #666;
     text-decoration: none;
+}
+
+input,button{
+    /* "\5B8B\4F53" 就是宋体的意思 这样浏览器兼容性比较好 */
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    /* 默认有灰色边框我们需要手动去掉 */
+    border: 0; 
+    outline: none;
+
 }
