@@ -76,22 +76,23 @@
     position: absolute;
     top: 25px;
     left: 346px;
-    height: 32px;
+    height: 36px;
     width: 538px;
     border: 2px solid #b1191a;
 }
 
 .search input {
     float: left;
-    width: 455px;
+    width: 454px;
     height: 32px;
     padding-left: 10px;
 }
 
 .search button {
     color: #f1f1f1;
+    font-size:16px;
     float: left;
-    width: 83px;
+    width: 80px;
     height: 32px;
     background-color: #b1191a;
 }
@@ -124,10 +125,73 @@
     background-color: azure;
 }
 
-.shopcard::before{
+/* nav导航栏 */
+
+.nav{
+    height: 47px;
+    border-bottom:2px solid #c81623;
+}
+
+.nav .dropdown{
+    float: left;
+    width: 210px;
+    height: 46px;
+    background-color: #c81623;
+}
+
+.nav .dropdown .dt{
+    width: 100%;
+    height: 100%;
+    font-size:16px;
+    color:#fff;
+    text-align: center;
+    line-height: 46px;
+}
+
+.nav .dropdown .dd{
+    width: 100%;
+    height: 465px;
+    background-color: #b1191a;
+}
+
+.nav .dropdown .dd ul{
 
 }
 
-.shopcard::after{
-    
+.nav .dropdown .dd li{
+    height: 31px;
+    line-height: 31px;
+    margin-left:2px;
+    height: 31px;
 }
+
+.nav .dropdown .dd a{
+    font-size:14px;
+    color:#fff;
+}
+
+.nav .dropdown .dd li:hover{
+    background-color: #fff;
+}
+
+.nav items{
+    height: 465px;
+}
+
+.nav .navitems{
+    float: left;
+}
+
+.nav .navitems li{
+    float: left;
+}
+
+.nav .navitems li a{
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    font-size:14px;
+    padding: 0 25px;
+}
+
+
