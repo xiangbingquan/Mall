@@ -1,1 +1,1 @@
-This is my personal Learning project
+This is my personal learning project
